@@ -21,5 +21,166 @@ a{
     width: 1170px;
     margin: 0 auto;
 }
+/* ======= navber start here ======= */
+nav {
+  margin-top: 50px;
+}
+.nav_wrapper {
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+.nav_menu {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  justify-content: end;
+  column-gap: 45px;
+}
+.nav_menu ul {
+  display: contents;
+}
+.nav_menu ul li a {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  color: #838383;
+  font-family: 'Montserrat', sans-serif;
+  transition: all linear 0.3s;
+}
+.nav_menu ul li a:hover {
+  color: #8671fc;
+}
+/* ======= navber end here ======= */
 
+/* =======Banner start here ======= */
+#banner {
+  padding: 76px 0 36px 0;
+}
+.banner_wrapper {
+  display: grid;
+  grid-template-columns: 471px 639px;
+  column-gap: 85px;
+  align-items: center;
+}
+.banner_left h5 {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 2px;
+  color: #222;
+  font-family: 'Raleway', serif;
+  margin-bottom: 20px;
+}
+.banner_left h5 strong {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 2px;
+  color: #f05d7b;
+  font-family: 'Raleway', serif;
+}
+.banner_left h1 {
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 88px;
+  color: #222;
+  font-family: 'Raleway', serif;
+}
+.banner_left p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0.2;
+  color: #838383;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  font-family: 'Raleway', serif;
+}
+.banner_btn a:first-child {
+  padding: 20px 49px;
+  border: 1px solid #8671fc;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: normal;
+  color: #8671fc;
+  border-radius: 30px;
+  font-family: 'Raleway', serif;
+  margin-right: 34px;
+  transition: all linear 0.3s;
+}
+.banner_btn a:first-child:hover{
+  background-color: #8671fc;
+  color:#fff;
+}
+.banner_btn a:last-child {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: normal;
+  color: #8671fc;
+  font-family: 'Raleway', serif;
+}
+.banner_btn a i {
+  margin-left: 27px;
+}
+.banner_right {
+  position: relative;
+  right: -23px;
+}
+
+/* =======Banner end here ======= */
+
+/* ======= About Me start here ======= */
+#about_me{
+  background: url(../images/about_me.png) no-repeat center;
+  background-size: cover;
+  padding: 273px 0 150px 0;
+}
+.about_me_wrapper{
+  display: grid;
+  grid-template-columns: 560px 360px;
+  align-items: center;
+  column-gap: 89px;
+  justify-content: center;
+}
+.about_me_item1 .sub_title{
+  color:#fff;
+  text-align:left ;
+}
+.about_me_item1 .title{
+  color:#fff;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.about_me_item1 .paragraph{
+  color:#fff;
+  max-width: 501px;
+}
+.about_me_item1 a{
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: normal;
+  color: #fff;
+  font-family: 'Raleway', serif;
+  margin-top: 70px;
+}
+.about_me_item1 a i{
+  margin-left: 27px;
+}
+.about_me_item2 .title{
+  color:#fff;
+}
+.about_me_item2 .paragraph{
+  color:#fff;
+  max-width: 421px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.about_me_item2 a{
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 26px;
+  color:#fff;
+  font-family: 'Raleway', serif;
+}
+/* ======= About Me end here ======= */
 
